@@ -1,0 +1,64 @@
+
+
+  <main class="row d-flex justify-content-center">
+    <section class="card col-lg-7 col-md-10 col-11">
+
+      <div class="card-body">
+        <h1 class="">Nouveau Matériel</h1>
+        <hr class="hr1">
+        <form action="./New_materiel.php" method="GET" enctype="multipart/form-data" class="row d-flex justify-content-center">
+          <div class="col-12 row d-flex justify-content-center">
+            <div class="form-group col-md-6 col-12" id="js_typeobj">
+              
+            </div>
+          </div>
+          <div class="form-group col-md-6 col-12">
+            <label for="caract">Caractéristique*</label>
+            <input type="text" class="form-control" id="caract" aria-describedby="name" placeholder="Enter email" name="caract" required>
+          </div>
+          <div class="form-group col-md-6 col-12">
+            <label class="form-select-label" for="salle">Salle*</label>
+            <select class="custom-select" id="salle" name="salle" required>
+              <option value="" selected>... Salle ...</option>
+              <option value="1">Salle 1</option>
+              <option value="2">Salle 2</option>
+              <option value="3">Salle 3</option>
+              <option value="4">Salle 4</option>
+              <option value="5">Salle 5</option>
+              <option value="6">Salle 6</option>
+              <option value="7">Salle 7</option>
+              <option value="8">Salle 8</option>
+              <option value="9">Salle 9</option>
+              <option value="10">Bureaux</option>
+              <option value="11">Réunion</option>
+              <option value="12">Amphi</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6 col-12">
+            <label for="prix">Prix</label>
+            <div class="input-group">
+              <input type="number" class="form-control" id="prix" aria-describedby="prix" placeholder="Enter email" name="Prix">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">€</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group col-md-6 col-12">
+            <label for="Nom">Nombre*</label>
+            <input type="number" class="form-control" id="Nombre" aria-describedby="Number" value="1" placeholder="Nombre d'exemplaire" name="n" required>
+          </div>
+          <small class="col-12">* Champ requis</small><br>
+          <button type="submit" class="btn btn-primary col-6">Créer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--Pied de Page-->
+  <footer>
+
+  </footer>
+</body>
+
+<script src="./API_typeobj.js"></script>
+

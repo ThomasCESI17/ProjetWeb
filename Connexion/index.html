@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--Accueil-->
+<html lang ="fr">
+  <head>
+    <!--HEAD Mettre des balise meta pour le référencement ainsi que les lien CSS-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CESI - Ecole d'ingénieur</title>
+    <meta name="description" content="">
+    <link rel="icon" type="image/png" href="">
+    <link rel="stylesheet" type="text/css" href="//cesi.local/bootstrap.min.css">
+    <style>
+      .row {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Barre de navigation-->
+    <header>
+      <img src="./Image1.png" alt="" class="w-100">
+      <nav id="indexPage" class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0%;">
+        <a class="navbar-brand" href="#"><img src="" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Moodle</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">Dépôt</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">BDE</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./Gestionnaire-Materiel/">Gestionnaire de matériel</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="card" style="width: 18rem;">
+        <h5 class="card-title">Connexion</h5>
+        <form action="connexion.php" method="POST" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="Pseudo">Pseudo</label>
+            <input type="text" class="form-control" id="Pseudo" aria-describedby="pseudo" placeholder="Pseudo" name="Pseudo">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Mot de Passe</label>
+            <input type="password" class="form-control" id="password" placeholder="Mot de passe" name="mdp">
+          </div>
+          <button type="submit" class="btn btn-primary">Connexion</button>
+        </form>
+      </div>
+    </main>
+
+    <!--Pied de Page-->
+    <footer>
+
+    </footer>
+  </body>
+
+  <script src="./jquery.js"></script>
+  <script src="./bootstrap.bundle.min.js"></script>
+  <script src="./javaNAVBAR.js"></script>
+  
+</html>

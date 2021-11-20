@@ -1,0 +1,41 @@
+  <main class="row d-flex justify-content-center">
+    <section class="card col-md-8 col-11">
+      <div class="card-body">
+        <h1 class="">Type d'objet</h1>
+        <hr class="hr1">
+        <form method="POST" action="./Cmateriel.php" enctype="multipart/form-data" class="row d-flex justify-content-center">
+          <div class="col-12 row d-flex justify-content-center">
+            <div class="form-group row col-md-5 col-12">
+              <label for="Nom" class="col-lg-5 col-12 col-form-label text-lg-right">Nom*</label>
+              <input type="text" class="form-control col-lg-7 col-12" id="Nom" aria-describedby="name" placeholder="Enter email" name="Nom" required>
+            </div>
+            <div class="form-group row col-md-7 col-12">
+              <label class="col-lg-5 col-12 col-form-label text-lg-right" for="categorie">Catégorie*</label>
+              <div class="col-lg-7 col-12">
+                <select class="custom-select" id="categorie" name="categorie" required>
+                  <option value="" selected>... Catégorie ...</option>
+                  <option value="Informatique">Informatique</option>
+                  <option value="Electronique">Electronique</option>
+                  <option value="Mécanique">Mécanique</option>
+                  <option value="Autre">Autre</option>
+                </select>
+            </div>
+          </div>
+          <div class="form-group col-md-6 col-8">
+            <label for="Nom">Image Matériel*</label>
+            <input type="file" class="form-control" id="img" aria-describedby="file" placeholder="Image" name="image" required>
+          </div>
+          <small class="col-12">* Champ requis</small><br>
+          <button type="submit" class="btn btn-primary col-6">Créer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--Pied de Page-->
+  <footer>
+
+  </footer>
+</body>
+
+<script src="./accueil.js"></script>

@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+.row {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.jumbotron {
+    margin-top: 25px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+}
+
+.carousel-indicators {
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-item p {
+    margin-bottom: 0%;
+}
+
+h1 {
+    color: #1473C3;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+hr {
+    border-top:solid 6px #1473C3 /*rgb(72, 72, 255)*/;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.hrh1 {
+    border-top:solid 2px rgb(241, 174, 13) /*rgb(72, 72, 255)*/;
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Barre de navigation */
+/* Taille bouton navition */
+
+.nav-item {
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav-link:hover {
+    font-weight: 500;
+}
+
+.navOn {
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 0.5px gray;
+    font-weight: 500;
+}
+
+nav {
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.imglogo {
+    height: 55px;
+}
+.imgentete {
+    width: 100%;
+}
+/* Barre de navigation */
+
+
+.logopiedpage {
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+}
+
+section {
+    padding-top: 25px;
+}
+
+/* CSS Pied de Page */
+#mentionsleg {
+    text-align: center;
+    background: linear-gradient(to right,#1473C3, black,#1473C3);
+    font-weight: 400;
+}
+
+#mentionsleg:hover a {
+    color: white;
+    font-weight: 500;
+}
+
+.hrfooter {
+    border-top: solid 1px;
+    margin-left: 0%;
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.infopiedpage {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.sompiedpage li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    list-style: none;
+}
+
+.sompiedpage {
+    padding-top: 1%;
+}
+
+.contactpiedpage {
+    padding-bottom: 1%;
+}
+
+footer {
+    padding-top: 35px;
+    font-weight: 500;
+    box-shadow: 1px 1px 30px 2px gray;
+    margin-top: 100px;
+    background: linear-gradient(to right,#1473C3,rgb(91, 164, 224),#1473C3);
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 0%;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(241, 174, 13);
+    text-decoration: none;
+}
+
+footer ul {
+    padding-inline-start: 0%;
+}
+
+footer div {
+    text-align: left;
+}
+/* CSS Pied de Page */

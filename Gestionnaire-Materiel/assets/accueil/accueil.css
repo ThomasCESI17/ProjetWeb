@@ -1,0 +1,14 @@
+li {
+    display: inline-block;
+}
+li p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.texteicone {
+    display: inline-block;
+    margin-bottom: 0;
+}
+ul {
+    white-space: nowrap;
+}
